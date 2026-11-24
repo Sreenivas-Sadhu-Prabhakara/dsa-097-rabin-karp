@@ -12,6 +12,13 @@ Treat each window as a number in base 256 modulo a large prime. Sliding one posi
 
 **Complexity:** O(n+m) expected, O(n·m) adversarial worst case; O(1) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
